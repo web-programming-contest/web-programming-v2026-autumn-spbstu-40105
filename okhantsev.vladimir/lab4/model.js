@@ -29,7 +29,7 @@ export function groupUsersByFriendCount(users) {
     if (!map.has(count)) {
       map.set(count, []);
     }
-    
+
     map.get(count).push(user);
   }
 
