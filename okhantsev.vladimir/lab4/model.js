@@ -23,9 +23,14 @@ export class User {
 }
 
 export function groupUsersByFriendCount(users) {
-  const map = {};
+  const map = new Map();
   for (const user of users) {
-    (map[user.friendCount] ??= []).push(user);
+    const count = user.friendCount;
+    if (!map.has(count)) {
+      map.set(count, []);
+    }
+    
+    map.get(count).push(user);
   }
 
   return map;

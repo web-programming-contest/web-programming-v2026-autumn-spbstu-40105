@@ -101,9 +101,6 @@ function render() {
       removeBtn.className = 'friend-remove';
       removeBtn.textContent = 'Удалить';
       removeBtn.addEventListener('click', async () => {
-        if (!confirm(`Удалить друга ID ${friendID}?`)) {
-          return;
-        }
         await removeFriend(user, friendID);
         render();
       });
@@ -134,9 +131,6 @@ function render() {
 
     const deleteBtn = card.querySelector('.delete-entity');
     deleteBtn.addEventListener('click', async () => {
-      if (!confirm(`Удалить пользователя "${user.name}"?`)) {
-        return;
-      }
       await removeUser(user.id);
       render();
     });
