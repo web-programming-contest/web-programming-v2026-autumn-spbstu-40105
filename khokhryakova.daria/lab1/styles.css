@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(59, 59, 146);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-card{
+    width: 350px;
+    background-color: rgb(204, 202, 189);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-image{
+    width: 350px;
+    height: 200px;
+    display: block;
+}
+
+.product-title{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 15px 8px;
+    color: white;
+}
+
+.product-description{
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 1px 15px 15px;
+    color: rgb(242, 244, 246);
+}
+
+.reviews{
+    padding:  12px 15px 15px;
+    border-top: 1px solid #000;
+}
+
+.reviews-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #222;
+}
+
+.reviews-list {
+    list-style: none;
+}
+
+.review{
+    margin-top: 10px;
+}
+
+.review-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.review-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.4;
+}
