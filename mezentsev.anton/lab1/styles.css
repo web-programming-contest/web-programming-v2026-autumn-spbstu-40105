@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Контейнер сетки */
+.layout {
+  display: grid;
+  /* Используем сокращенное свойство grid-template для соответствия stylelint */
+  grid-template:
+    'header header' auto
+    'sidebar content' 1fr
+    'footer footer' auto
+    / 300px 1fr;
+  min-height: 100vh;
+}
+
+/* Общие стили блоков */
+.header,
+.sidebar,
+.content,
+.footer {
+  border: 1px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  grid-area: header;
+  background-color: #fff700;
+  text-align: center;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #f0e68c;
+}
+
+.content {
+  grid-area: content;
+  background-color: #e6d55c;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #f5f5dc;
+  text-align: center;
+}
