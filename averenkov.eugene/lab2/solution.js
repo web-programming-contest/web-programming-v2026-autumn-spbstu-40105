@@ -1,6 +1,8 @@
 export function calculateExpression(expr) {
   const tokens = expr.match(/\d+\.?\d*|[+\-*/()]/g);
-  if (!tokens) throw new Error('Пустое или некорректное выражение');
+  if (!tokens) {
+    throw new Error('Пустое или некорректное выражение');
+  }
 
   let pos = 0;
 
@@ -22,7 +24,9 @@ export function calculateExpression(expr) {
     while (peek() === '*' || peek() === '/') {
       const op = next();
       const right = parseFactor();
-      if (op === '/' && right === 0) throw new Error('Деление на ноль');
+      if (op === '/' && right === 0) {
+        throw new Error('Деление на ноль');
+      }
       value = op === '*' ? value * right : value / right;
     }
     return value;
@@ -32,18 +36,24 @@ export function calculateExpression(expr) {
     const token = next();
     if (token === '(') {
       const value = parseExpr();
-      if (next() !== ')') throw new Error('Не хватает закрывающей скобки');
+      if (next() !== ')') {
+        throw new Error('Не хватает закрывающей скобки');
+      }
       return value;
     }
     if (token === '-') {
       return -parseFactor();
     }
     const num = parseFloat(token);
-    if (isNaN(num)) throw new Error(`Неожиданный токен: ${token}`);
+    if (isNaN(num)) {
+      throw new Error(`Неожиданный токен: ${token}`);
+    }
     return num;
   }
 
   const result = parseExpr();
-  if (pos !== tokens.length) throw new Error('Лишние символы после выражения');
+  if (pos !== tokens.length) {
+    throw new Error('Лишние символы после выражения');
+  }
   return result;
 }
