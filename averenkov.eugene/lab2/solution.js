@@ -52,7 +52,7 @@ function calculateExpression(expr) {
   return result;
 }
 
-console.log(calculateExpression("2 + 3 * 4")); // 14
-console.log(calculateExpression("(2 + 3) * 4")); // 20
-console.log(calculateExpression("10 / 2 - 3")); // 2
-console.log(calculateExpression("-5 + 3")); // -2
+console.log(calculateExpression('2 + 3 * 4')); // 14
+console.log(calculateExpression('(2 + 3) * 4')); // 20
+console.log(calculateExpression('10 / 2 - 3')); // 2
+console.log(calculateExpression('-5 + 3')); // -2
