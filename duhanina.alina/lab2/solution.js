@@ -4,17 +4,18 @@ export function isBalanced(str) {
     '{': '}',
     '[': ']',
   };
+  const closingBrackets = Object.values(pairBrackets);
   const stack = [];
 
   for (let index = 0; index < str.length; index++) {
-    if (str[index] in pairBrackets) {
-      stack.push(str[index]);
-    } else if (
-      stack.length === 0 ||
-      pairBrackets[stack[stack.length - 1]] !== str[index]
-    ) {
-      return false;
-    } else {
+    const ch = str[index];
+
+    if (ch in pairBrackets) {
+      stack.push(ch);
+    } else if (closingBrackets.includes(ch)) {
+      if (stack.length === 0 || pairBrackets[stack[stack.length - 1]] !== ch) {
+        return false;
+      }
       stack.pop();
     }
   }
