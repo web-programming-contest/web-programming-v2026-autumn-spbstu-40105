@@ -9,7 +9,7 @@ export function findPairsWithSum(arr, sum) {
     if (seen.has(need)) {
       const a = Math.min(num, need);
       const b = Math.max(num, need);
-      const key = a + "," + b;
+      const key = a + ',' + b;
 
       if (!used.has(key)) {
         pairs.push([a, b]);
