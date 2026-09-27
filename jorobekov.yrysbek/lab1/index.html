@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Адаптивная страница с тремя колонками</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Адаптивная сетка из трёх колонок</h1>
+      <p class="subtitle">
+        Измените размер окна браузера, чтобы увидеть, как колонки
+        перестраиваются под разные размеры экрана.
+      </p>
+    </header>
+
+    <main class="columns" data-testid="columns-wrapper">
+      <section class="column" tabindex="0" aria-labelledby="col1-title">
+        <h2 id="col1-title">Колонка 1</h2>
+        <p>
+          На больших экранах эта колонка располагается рядом с двумя другими в
+          один ряд.
+        </p>
+        <a class="column-link" href="#col1-title">Подробнее</a>
+      </section>
+
+      <section class="column" tabindex="0" aria-labelledby="col2-title">
+        <h2 id="col2-title">Колонка 2</h2>
+        <p>
+          На средних экранах колонки перестраиваются в два столбца — эта колонка
+          переносится на новую строку.
+        </p>
+        <a class="column-link" href="#col2-title">Подробнее</a>
+      </section>
+
+      <section class="column" tabindex="0" aria-labelledby="col3-title">
+        <h2 id="col3-title">Колонка 3</h2>
+        <p>
+          На маленьких экранах (мобильных) все колонки располагаются одна под
+          другой в один столбец.
+        </p>
+        <a class="column-link" href="#col3-title">Подробнее</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Лабораторная работа 1 &mdash; адаптивная вёрстка</p>
+    </footer>
+  </body>
+</html>
