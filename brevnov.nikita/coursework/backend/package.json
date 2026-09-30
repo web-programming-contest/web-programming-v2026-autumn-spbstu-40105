@@ -1,0 +1,16 @@
+{
+  "name": "gadget-hub-backend",
+  "version": "1.0.0",
+  "description": "Бекенд интернет-магазина Gadget Hub — Express + JSON-хранилище",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
