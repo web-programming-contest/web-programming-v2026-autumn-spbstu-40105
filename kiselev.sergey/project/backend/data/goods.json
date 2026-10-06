@@ -1,0 +1,1110 @@
+[
+  {
+    "id": 1,
+    "name": "Внешний аккумулятор 10000mAh, белый",
+    "type": "powerbank",
+    "color": "white",
+    "price": 1990,
+    "rating": 4.6,
+    "popularity": 310,
+    "createdAt": "2024-03-02",
+    "isNew": false,
+    "isHit": false,
+    "description": "Компактный аккумулятор для зарядки смартфона в дороге.",
+    "specs": [
+      {
+        "name": "Ёмкость",
+        "value": "10000 мА·ч"
+      },
+      {
+        "name": "Выходы",
+        "value": "USB-A, USB-C"
+      },
+      {
+        "name": "Вес",
+        "value": "210 г"
+      }
+    ],
+    "image": "/images/goods/image_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Внешний аккумулятор 10000mAh, черный",
+    "type": "powerbank",
+    "color": "black",
+    "price": 1990,
+    "rating": 4.7,
+    "popularity": 420,
+    "createdAt": "2024-03-02",
+    "isNew": false,
+    "isHit": true,
+    "description": "Компактный аккумулятор для зарядки смартфона в дороге.",
+    "specs": [
+      {
+        "name": "Ёмкость",
+        "value": "10000 мА·ч"
+      },
+      {
+        "name": "Выходы",
+        "value": "USB-A, USB-C"
+      },
+      {
+        "name": "Вес",
+        "value": "210 г"
+      }
+    ],
+    "image": "/images/goods/image_2.png"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth гарнитура, черный",
+    "type": "headset",
+    "color": "black",
+    "price": 8990,
+    "rating": 4.5,
+    "popularity": 150,
+    "createdAt": "2024-02-10",
+    "isNew": false,
+    "isHit": false,
+    "description": "Беспроводная гарнитура с микрофоном для звонков и музыки.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Bluetooth 5.2"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 30 ч"
+      },
+      {
+        "name": "Микрофон",
+        "value": "есть"
+      }
+    ],
+    "image": "/images/goods/image_3.png"
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth гарнитура, серый",
+    "type": "headset",
+    "color": "gray",
+    "price": 8990,
+    "rating": 4.4,
+    "popularity": 120,
+    "createdAt": "2024-02-10",
+    "isNew": false,
+    "isHit": false,
+    "description": "Беспроводная гарнитура с микрофоном для звонков и музыки.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Bluetooth 5.2"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 30 ч"
+      },
+      {
+        "name": "Микрофон",
+        "value": "есть"
+      }
+    ],
+    "image": "/images/goods/image_4.png"
+  },
+  {
+    "id": 5,
+    "name": "Беспроводная акустика",
+    "type": "speaker",
+    "color": "black",
+    "price": 4990,
+    "rating": 3.6,
+    "popularity": 380,
+    "createdAt": "2024-01-20",
+    "isNew": false,
+    "isHit": true,
+    "description": "Портативная колонка с подсветкой и защитой от брызг.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 12 ч"
+      },
+      {
+        "name": "Защита",
+        "value": "IPX5"
+      }
+    ],
+    "image": "/images/goods/image_5.png"
+  },
+  {
+    "id": 6,
+    "name": "Смартфон Samsung Galaxy A55 5G 256 ГБ фиолетовый",
+    "type": "smartphone",
+    "color": "purple",
+    "price": 54990,
+    "rating": 4.8,
+    "popularity": 510,
+    "createdAt": "2024-04-15",
+    "isNew": true,
+    "isHit": true,
+    "description": "Смартфон с ярким AMOLED-экраном и тройной камерой.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "6,6\", Super AMOLED"
+      },
+      {
+        "name": "Память",
+        "value": "256 ГБ"
+      },
+      {
+        "name": "Камера",
+        "value": "50 Мп"
+      }
+    ],
+    "image": "/images/goods/image_6.png"
+  },
+  {
+    "id": 7,
+    "name": "Смартфон Samsung Galaxy A55 5G 256 ГБ черный",
+    "type": "smartphone",
+    "color": "black",
+    "price": 54990,
+    "rating": 4.7,
+    "popularity": 470,
+    "createdAt": "2024-04-15",
+    "isNew": true,
+    "isHit": false,
+    "description": "Смартфон с ярким AMOLED-экраном и тройной камерой.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "6,6\", Super AMOLED"
+      },
+      {
+        "name": "Память",
+        "value": "256 ГБ"
+      },
+      {
+        "name": "Камера",
+        "value": "50 Мп"
+      }
+    ],
+    "image": "/images/goods/image_7.png"
+  },
+  {
+    "id": 8,
+    "name": "Смартфон Samsung Galaxy A55 5G 256 ГБ белый",
+    "type": "smartphone",
+    "color": "white",
+    "price": 54990,
+    "rating": 4.7,
+    "popularity": 390,
+    "createdAt": "2024-04-15",
+    "isNew": true,
+    "isHit": false,
+    "description": "Смартфон с ярким AMOLED-экраном и тройной камерой.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "6,6\", Super AMOLED"
+      },
+      {
+        "name": "Память",
+        "value": "256 ГБ"
+      },
+      {
+        "name": "Камера",
+        "value": "50 Мп"
+      }
+    ],
+    "image": "/images/goods/image_8.png"
+  },
+  {
+    "id": 9,
+    "name": "Часы с GPS трекером Geozon Active черные (G-W03PNK)",
+    "type": "watch",
+    "color": "black",
+    "price": 2000,
+    "rating": 4.8,
+    "popularity": 260,
+    "createdAt": "2024-04-28",
+    "isNew": true,
+    "isHit": false,
+    "description": "Детские часы с GPS, звонками и кнопкой SOS.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "1,44\""
+      },
+      {
+        "name": "Связь",
+        "value": "2G, GPS"
+      },
+      {
+        "name": "Защита",
+        "value": "IP67"
+      }
+    ],
+    "image": "/images/goods/image_9.png"
+  },
+  {
+    "id": 10,
+    "name": "Часы с GPS трекером Geozon Active синие (G-W03PNK)",
+    "type": "watch",
+    "color": "blue",
+    "price": 2000,
+    "rating": 4.6,
+    "popularity": 240,
+    "createdAt": "2024-04-28",
+    "isNew": true,
+    "isHit": false,
+    "description": "Детские часы с GPS, звонками и кнопкой SOS.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "1,44\""
+      },
+      {
+        "name": "Связь",
+        "value": "2G, GPS"
+      },
+      {
+        "name": "Защита",
+        "value": "IP67"
+      }
+    ],
+    "image": "/images/goods/image_10.png"
+  },
+  {
+    "id": 11,
+    "name": "Фитнес-браслет HUAWEI Band 8 (ASK-B19) зеленый",
+    "type": "fitness",
+    "color": "green",
+    "price": 3490,
+    "rating": 4.3,
+    "popularity": 200,
+    "createdAt": "2023-11-05",
+    "isNew": false,
+    "isHit": false,
+    "description": "Браслет с пульсометром, шагомером и мониторингом сна.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "1,47\", AMOLED"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 14 дней"
+      },
+      {
+        "name": "Защита",
+        "value": "5 ATM"
+      }
+    ],
+    "image": "/images/goods/image_11.png"
+  },
+  {
+    "id": 12,
+    "name": "Фитнес-браслет HUAWEI Band 8 (ASK-B19) черный",
+    "type": "fitness",
+    "color": "black",
+    "price": 3490,
+    "rating": 4.4,
+    "popularity": 230,
+    "createdAt": "2023-11-05",
+    "isNew": false,
+    "isHit": false,
+    "description": "Браслет с пульсометром, шагомером и мониторингом сна.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "1,47\", AMOLED"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 14 дней"
+      },
+      {
+        "name": "Защита",
+        "value": "5 ATM"
+      }
+    ],
+    "image": "/images/goods/image_12.png"
+  },
+  {
+    "id": 13,
+    "name": "Наушники True Wireless HUAWEI FreeBuds SE 2 T0016 белые",
+    "type": "headphones",
+    "color": "white",
+    "price": 6990,
+    "rating": 4.5,
+    "popularity": 350,
+    "createdAt": "2024-01-12",
+    "isNew": false,
+    "isHit": true,
+    "description": "Беспроводные наушники-вкладыши с чистым звуком и долгой автономностью.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "name": "Шумоподавление",
+        "value": "для звонков"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 40 ч с кейсом"
+      }
+    ],
+    "image": "/images/goods/image_13.png"
+  },
+  {
+    "id": 14,
+    "name": "Наушники True Wireless HUAWEI FreeBuds SE 2 T0016 синие",
+    "type": "headphones",
+    "color": "blue",
+    "price": 6990,
+    "rating": 4.4,
+    "popularity": 180,
+    "createdAt": "2024-01-12",
+    "isNew": false,
+    "isHit": false,
+    "description": "Беспроводные наушники-вкладыши с чистым звуком и долгой автономностью.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "name": "Шумоподавление",
+        "value": "для звонков"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 40 ч с кейсом"
+      }
+    ],
+    "image": "/images/goods/image_14.png"
+  },
+  {
+    "id": 15,
+    "name": "Наушники True Wireless HUAWEI FreeBuds SE 2 T0016 черные",
+    "type": "headphones",
+    "color": "black",
+    "price": 6990,
+    "rating": 4.6,
+    "popularity": 290,
+    "createdAt": "2024-01-12",
+    "isNew": false,
+    "isHit": false,
+    "description": "Беспроводные наушники-вкладыши с чистым звуком и долгой автономностью.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Bluetooth 5.3"
+      },
+      {
+        "name": "Шумоподавление",
+        "value": "для звонков"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 40 ч с кейсом"
+      }
+    ],
+    "image": "/images/goods/image_15.png"
+  },
+  {
+    "id": 16,
+    "name": "Видеокамера для блогера DJI Action 2 Dual-Screen Combo (CP.OS.00000183.01)",
+    "type": "camera",
+    "color": "gray",
+    "price": 32990,
+    "rating": 4.7,
+    "popularity": 140,
+    "createdAt": "2024-03-20",
+    "isNew": true,
+    "isHit": false,
+    "description": "Модульная экшн-камера с двумя экранами для съёмки влогов.",
+    "specs": [
+      {
+        "name": "Видео",
+        "value": "4K 60 к/с"
+      },
+      {
+        "name": "Стабилизация",
+        "value": "электронная"
+      },
+      {
+        "name": "Вес",
+        "value": "134 г"
+      }
+    ],
+    "image": "/images/goods/image_16.png"
+  },
+  {
+    "id": 17,
+    "name": "Микрофон Barn&Hollis LM01C с разъемом Type-C (УТ000029447)",
+    "type": "microphone",
+    "color": "black",
+    "price": 1490,
+    "rating": 4.2,
+    "popularity": 170,
+    "createdAt": "2023-10-01",
+    "isNew": false,
+    "isHit": false,
+    "description": "Беспроводной петличный микрофон для смартфона.",
+    "specs": [
+      {
+        "name": "Разъём",
+        "value": "USB Type-C"
+      },
+      {
+        "name": "Дальность",
+        "value": "до 20 м"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 6 ч"
+      }
+    ],
+    "image": "/images/goods/image_17.png"
+  },
+  {
+    "id": 18,
+    "name": "Чехол-подвеска Red Line для Airtag силиконовый с карабином, красный",
+    "type": "case",
+    "color": "red",
+    "price": 590,
+    "rating": 4.1,
+    "popularity": 90,
+    "createdAt": "2023-09-14",
+    "isNew": false,
+    "isHit": false,
+    "description": "Силиконовый чехол-брелок для метки или ключей.",
+    "specs": [
+      {
+        "name": "Материал",
+        "value": "силикон"
+      },
+      {
+        "name": "Крепление",
+        "value": "карабин"
+      }
+    ],
+    "image": "/images/goods/image_18.png"
+  },
+  {
+    "id": 19,
+    "name": "Чехол-подвеска Red Line для Airtag силиконовый с карабином, белый",
+    "type": "case",
+    "color": "white",
+    "price": 590,
+    "rating": 4.0,
+    "popularity": 80,
+    "createdAt": "2023-09-14",
+    "isNew": false,
+    "isHit": false,
+    "description": "Силиконовый чехол-брелок для метки или ключей.",
+    "specs": [
+      {
+        "name": "Материал",
+        "value": "силикон"
+      },
+      {
+        "name": "Крепление",
+        "value": "карабин"
+      }
+    ],
+    "image": "/images/goods/image_19.png"
+  },
+  {
+    "id": 20,
+    "name": "Чехол-подвеска Red Line для Airtag силиконовый с карабином, серый",
+    "type": "case",
+    "color": "gray",
+    "price": 590,
+    "rating": 4.2,
+    "popularity": 85,
+    "createdAt": "2023-09-14",
+    "isNew": false,
+    "isHit": false,
+    "description": "Силиконовый чехол-брелок для метки или ключей.",
+    "specs": [
+      {
+        "name": "Материал",
+        "value": "силикон"
+      },
+      {
+        "name": "Крепление",
+        "value": "карабин"
+      }
+    ],
+    "image": "/images/goods/image_20.png"
+  },
+  {
+    "id": 21,
+    "name": "Чехол-подвеска Red Line для Airtag силиконовый с карабином, желтый",
+    "type": "case",
+    "color": "yellow",
+    "price": 590,
+    "rating": 4.3,
+    "popularity": 110,
+    "createdAt": "2023-09-14",
+    "isNew": false,
+    "isHit": false,
+    "description": "Силиконовый чехол-брелок для метки или ключей.",
+    "specs": [
+      {
+        "name": "Материал",
+        "value": "силикон"
+      },
+      {
+        "name": "Крепление",
+        "value": "карабин"
+      }
+    ],
+    "image": "/images/goods/image_21.png"
+  },
+  {
+    "id": 22,
+    "name": "Беспроводная акустика, серый",
+    "type": "speaker",
+    "color": "gray",
+    "price": 1990,
+    "rating": 4.1,
+    "popularity": 130,
+    "createdAt": "2024-02-25",
+    "isNew": false,
+    "isHit": false,
+    "description": "Мини-колонка в виде забавного зверька.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "3 Вт"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 6 ч"
+      }
+    ],
+    "image": "/images/goods/image_22.png"
+  },
+  {
+    "id": 23,
+    "name": "Беспроводная акустика, голубой",
+    "type": "speaker",
+    "color": "blue",
+    "price": 2490,
+    "rating": 4.0,
+    "popularity": 100,
+    "createdAt": "2024-02-25",
+    "isNew": false,
+    "isHit": false,
+    "description": "Колонка-самолёт с подсветкой.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 8 ч"
+      }
+    ],
+    "image": "/images/goods/image_23.png"
+  },
+  {
+    "id": 24,
+    "name": "Беспроводная акустика, бежевый",
+    "type": "speaker",
+    "color": "beige",
+    "price": 1990,
+    "rating": 4.5,
+    "popularity": 160,
+    "createdAt": "2024-02-25",
+    "isNew": false,
+    "isHit": false,
+    "description": "Мини-колонка в виде мопса.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "3 Вт"
+      },
+      {
+        "name": "Время работы",
+        "value": "до 6 ч"
+      }
+    ],
+    "image": "/images/goods/image_24.png"
+  },
+  {
+    "id": 25,
+    "name": "Умная лампа Rubetek RL-3105",
+    "type": "smart-home",
+    "color": "white",
+    "price": 990,
+    "rating": 4.4,
+    "popularity": 210,
+    "createdAt": "2023-12-01",
+    "isNew": false,
+    "isHit": false,
+    "description": "RGB-лампа с управлением со смартфона и голосом.",
+    "specs": [
+      {
+        "name": "Цоколь",
+        "value": "GU10"
+      },
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi"
+      }
+    ],
+    "image": "/images/goods/image_25.png"
+  },
+  {
+    "id": 26,
+    "name": "Аппаратный ключ аутентификации Yubico YubiKey 5 NFC",
+    "type": "security",
+    "color": "black",
+    "price": 10590,
+    "rating": 5.0,
+    "popularity": 300,
+    "createdAt": "2023-08-20",
+    "isNew": false,
+    "isHit": true,
+    "description": "Ключ для двухфакторной аутентификации с NFC и USB-A.",
+    "specs": [
+      {
+        "name": "Интерфейсы",
+        "value": "USB-A, NFC"
+      },
+      {
+        "name": "Протоколы",
+        "value": "FIDO2, U2F, OTP"
+      }
+    ],
+    "image": "/images/goods/image_26.png"
+  },
+  {
+    "id": 27,
+    "name": "Аппаратный криптокошелек Safepal S1 Pro Hardware Wallet",
+    "type": "security",
+    "color": "black",
+    "price": 14990,
+    "rating": 4.6,
+    "popularity": 95,
+    "createdAt": "2023-10-30",
+    "isNew": false,
+    "isHit": false,
+    "description": "Холодный кошелёк без беспроводной связи для безопасного хранения криптовалюты.",
+    "specs": [
+      {
+        "name": "Экран",
+        "value": "OLED"
+      },
+      {
+        "name": "Подключение",
+        "value": "QR-коды, USB-C для зарядки"
+      }
+    ],
+    "image": "/images/goods/image_27.png"
+  },
+  {
+    "id": 28,
+    "name": "Очки виртуальной реальности Luazon home VR 2, смартфоны до 6,5\"",
+    "type": "vr",
+    "color": "white",
+    "price": 2990,
+    "rating": 3.9,
+    "popularity": 190,
+    "createdAt": "2023-07-11",
+    "isNew": false,
+    "isHit": false,
+    "description": "VR-очки для смартфона с регулировкой линз.",
+    "specs": [
+      {
+        "name": "Диагональ смартфона",
+        "value": "до 6,5\""
+      },
+      {
+        "name": "Угол обзора",
+        "value": "100°"
+      }
+    ],
+    "image": "/images/goods/image_28.png"
+  },
+  {
+    "id": 29,
+    "name": "Шлем виртуальной реальности Oculus Quest 2 128GB",
+    "type": "vr",
+    "color": "white",
+    "price": 49990,
+    "rating": 4.8,
+    "popularity": 330,
+    "createdAt": "2024-05-01",
+    "isNew": true,
+    "isHit": true,
+    "description": "Автономный VR-шлем с контроллерами.",
+    "specs": [
+      {
+        "name": "Память",
+        "value": "128 ГБ"
+      },
+      {
+        "name": "Разрешение",
+        "value": "1832×1920 на глаз"
+      },
+      {
+        "name": "Частота",
+        "value": "90 Гц"
+      }
+    ],
+    "image": "/images/goods/image_29.png"
+  },
+  {
+    "id": 30,
+    "name": "Умный чемодан-скутер Airwheel SE3 серый",
+    "type": "transport",
+    "color": "gray",
+    "price": 167890,
+    "rating": 4.5,
+    "popularity": 60,
+    "createdAt": "2024-05-10",
+    "isNew": true,
+    "isHit": false,
+    "description": "Чемодан, на котором можно ехать, — удобно в аэропорту.",
+    "specs": [
+      {
+        "name": "Скорость",
+        "value": "до 13 км/ч"
+      },
+      {
+        "name": "Запас хода",
+        "value": "до 20 км"
+      },
+      {
+        "name": "Объём",
+        "value": "20 л"
+      }
+    ],
+    "image": "/images/goods/image_30.png"
+  },
+  {
+    "id": 31,
+    "name": "Умный чемодан-скутер Airwheel SE3 черный",
+    "type": "transport",
+    "color": "black",
+    "price": 167890,
+    "rating": 4.6,
+    "popularity": 70,
+    "createdAt": "2024-05-10",
+    "isNew": true,
+    "isHit": true,
+    "description": "Чемодан, на котором можно ехать, — удобно в аэропорту.",
+    "specs": [
+      {
+        "name": "Скорость",
+        "value": "до 13 км/ч"
+      },
+      {
+        "name": "Запас хода",
+        "value": "до 20 км"
+      },
+      {
+        "name": "Объём",
+        "value": "20 л"
+      }
+    ],
+    "image": "/images/goods/image_31.png"
+  },
+  {
+    "id": 32,
+    "name": "Дыхательный тренажер O2in Pro Violet",
+    "type": "health",
+    "color": "pink",
+    "price": 3990,
+    "rating": 4.3,
+    "popularity": 75,
+    "createdAt": "2024-04-01",
+    "isNew": true,
+    "isHit": false,
+    "description": "Тренажёр для развития дыхательной системы.",
+    "specs": [
+      {
+        "name": "Уровни нагрузки",
+        "value": "6"
+      },
+      {
+        "name": "Материал",
+        "value": "медицинский силикон"
+      }
+    ],
+    "image": "/images/goods/image_32.png"
+  },
+  {
+    "id": 33,
+    "name": "Умная колонка Яндекс Станция Лайт с Алисой на YaGPT, 5 Вт, красная",
+    "type": "smart-home",
+    "color": "red",
+    "price": 4990,
+    "rating": 4.8,
+    "popularity": 330,
+    "createdAt": "2024-03-01",
+    "isNew": false,
+    "isHit": true,
+    "description": "Компактная умная колонка с Алисой: включит музыку, ответит на вопросы и поможет управлять умным домом.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Голосовой помощник",
+        "value": "Алиса на YaGPT"
+      },
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi, Bluetooth"
+      }
+    ],
+    "image": "/images/goods/image_33.png"
+  },
+  {
+    "id": 34,
+    "name": "Умная колонка Яндекс Станция Лайт с Алисой на YaGPT, 5 Вт, фиолетовая",
+    "type": "smart-home",
+    "color": "purple",
+    "price": 4990,
+    "rating": 4.7,
+    "popularity": 310,
+    "createdAt": "2024-03-01",
+    "isNew": false,
+    "isHit": true,
+    "description": "Компактная умная колонка с Алисой: включит музыку, ответит на вопросы и поможет управлять умным домом.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Голосовой помощник",
+        "value": "Алиса на YaGPT"
+      },
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi, Bluetooth"
+      }
+    ],
+    "image": "/images/goods/image_34.png"
+  },
+  {
+    "id": 35,
+    "name": "Умная колонка Яндекс Станция Лайт с Алисой на YaGPT, 5 Вт, бирюзовая",
+    "type": "smart-home",
+    "color": "light-blue",
+    "price": 4990,
+    "rating": 4.6,
+    "popularity": 260,
+    "createdAt": "2024-03-15",
+    "isNew": false,
+    "isHit": false,
+    "description": "Компактная умная колонка с Алисой: включит музыку, ответит на вопросы и поможет управлять умным домом.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Голосовой помощник",
+        "value": "Алиса на YaGPT"
+      },
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi, Bluetooth"
+      }
+    ],
+    "image": "/images/goods/image_35.png"
+  },
+  {
+    "id": 36,
+    "name": "Умная колонка Яндекс Станция Лайт с Алисой на YaGPT, 5 Вт, желтая",
+    "type": "smart-home",
+    "color": "yellow",
+    "price": 4990,
+    "rating": 4.6,
+    "popularity": 240,
+    "createdAt": "2024-03-15",
+    "isNew": false,
+    "isHit": false,
+    "description": "Компактная умная колонка с Алисой: включит музыку, ответит на вопросы и поможет управлять умным домом.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Голосовой помощник",
+        "value": "Алиса на YaGPT"
+      },
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi, Bluetooth"
+      }
+    ],
+    "image": "/images/goods/image_36.png"
+  },
+  {
+    "id": 37,
+    "name": "Умная колонка Яндекс Станция Лайт с Алисой на YaGPT, 5 Вт, бежевая",
+    "type": "smart-home",
+    "color": "beige",
+    "price": 4990,
+    "rating": 4.5,
+    "popularity": 200,
+    "createdAt": "2024-03-15",
+    "isNew": false,
+    "isHit": false,
+    "description": "Компактная умная колонка с Алисой: включит музыку, ответит на вопросы и поможет управлять умным домом.",
+    "specs": [
+      {
+        "name": "Мощность",
+        "value": "5 Вт"
+      },
+      {
+        "name": "Голосовой помощник",
+        "value": "Алиса на YaGPT"
+      },
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi, Bluetooth"
+      }
+    ],
+    "image": "/images/goods/image_37.png"
+  },
+  {
+    "id": 38,
+    "name": "Умный ночник Sber \"Кошка\" оранжевый",
+    "type": "smart-home",
+    "color": "orange",
+    "price": 2490,
+    "rating": 4.7,
+    "popularity": 150,
+    "createdAt": "2024-05-15",
+    "isNew": true,
+    "isHit": false,
+    "description": "Светильник-игрушка с регулировкой яркости и цвета: управляется голосом через Салют и из приложения.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi"
+      },
+      {
+        "name": "Управление",
+        "value": "голосом, приложение Салют"
+      },
+      {
+        "name": "Питание",
+        "value": "USB-C"
+      }
+    ],
+    "image": "/images/goods/image_38.png"
+  },
+  {
+    "id": 39,
+    "name": "Умный ночник Sber \"Космонавт\" голубой",
+    "type": "smart-home",
+    "color": "light-blue",
+    "price": 2490,
+    "rating": 4.6,
+    "popularity": 130,
+    "createdAt": "2024-05-15",
+    "isNew": true,
+    "isHit": false,
+    "description": "Светильник-игрушка с регулировкой яркости и цвета: управляется голосом через Салют и из приложения.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi"
+      },
+      {
+        "name": "Управление",
+        "value": "голосом, приложение Салют"
+      },
+      {
+        "name": "Питание",
+        "value": "USB-C"
+      }
+    ],
+    "image": "/images/goods/image_39.png"
+  },
+  {
+    "id": 40,
+    "name": "Умный ночник Sber \"Грибочек\" зеленый",
+    "type": "smart-home",
+    "color": "green",
+    "price": 2490,
+    "rating": 4.5,
+    "popularity": 110,
+    "createdAt": "2024-05-15",
+    "isNew": true,
+    "isHit": false,
+    "description": "Светильник-игрушка с регулировкой яркости и цвета: управляется голосом через Салют и из приложения.",
+    "specs": [
+      {
+        "name": "Подключение",
+        "value": "Wi-Fi"
+      },
+      {
+        "name": "Управление",
+        "value": "голосом, приложение Салют"
+      },
+      {
+        "name": "Питание",
+        "value": "USB-C"
+      }
+    ],
+    "image": "/images/goods/image_40.png"
+  },
+  {
+    "id": 41,
+    "name": "Смартфон Samsung Galaxy Z Flip5 8/256 GB мятный",
+    "type": "smartphone",
+    "color": "green",
+    "price": 94990,
+    "rating": 5.0,
+    "popularity": 290,
+    "createdAt": "2024-05-20",
+    "isNew": true,
+    "isHit": true,
+    "description": "Смартфон Samsung Galaxy Z Flip5 — девайс со складным корпусом и двумя экранами, что расширяет его возможности.",
+    "specs": [
+      {
+        "name": "Гарантия",
+        "value": "1 год"
+      },
+      {
+        "name": "Экран",
+        "value": "6,7\" основной, 3,4\" внешний"
+      },
+      {
+        "name": "Процессор",
+        "value": "Qualcomm Snapdragon 8 Gen 2"
+      },
+      {
+        "name": "Память",
+        "value": "8/256 ГБ"
+      }
+    ],
+    "image": "/images/goods/image_41.png"
+  }
+]
