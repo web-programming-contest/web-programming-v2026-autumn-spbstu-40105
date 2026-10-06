@@ -1,0 +1,79 @@
+.catalog-page {
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.catalog-title {
+  margin: 0 0 24px;
+  font-size: 28px;
+}
+
+.catalog-error {
+  color: var(--color-danger);
+}
+
+.catalog-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.catalog-control {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--color-text-dim);
+}
+
+.catalog-control select,
+.catalog-control input {
+  min-width: 130px;
+  padding: 8px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.catalog-control input {
+  width: 110px;
+  min-width: 0;
+}
+
+.catalog-reset {
+  padding: 8px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+  font-size: 14px;
+}
+
+.catalog-reset:hover {
+  background: var(--color-border);
+}
+
+.catalog-count {
+  margin: 16px 0;
+  font-size: 14px;
+  color: var(--color-text-dim);
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.catalog-empty {
+  padding: 48px 0;
+  text-align: center;
+  color: var(--color-text-dim);
+}

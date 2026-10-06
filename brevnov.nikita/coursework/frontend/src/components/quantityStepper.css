@@ -1,0 +1,45 @@
+.stepper-add {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-accent);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.stepper-add:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.stepper-button {
+  flex: 0 0 32px;
+  height: 32px;
+  border: none;
+  background: var(--color-surface);
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-text);
+}
+
+.stepper-button:hover {
+  background: var(--color-border);
+}
+
+.stepper-value {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}

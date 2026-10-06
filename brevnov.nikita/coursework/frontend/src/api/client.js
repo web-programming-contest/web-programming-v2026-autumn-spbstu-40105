@@ -2,7 +2,7 @@
 // credentials: 'include' обязателен — без него браузер не будет ни отправлять,
 // ни принимать cookie сессии между localhost:3000 и localhost:8080
 // (это две разные "origin" с точки зрения браузера).
-const API_BASE_URL = 'http://localhost:8080';
+const API_BASE_URL = '/api';
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE_URL}${path}`, {
