@@ -1,0 +1,8 @@
+.home-page {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.home-error {
+  color: var(--color-danger);
+}

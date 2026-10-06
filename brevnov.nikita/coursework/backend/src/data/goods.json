@@ -1,0 +1,569 @@
+[
+  {
+    "id": 1,
+    "title": "Внешний аккумулятор 10000mAh, белый",
+    "type": "powerbanks",
+    "color": "white",
+    "price": 2490,
+    "rating": 4,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-02-10",
+    "image": "image_1.png",
+    "description": "Компактный power bank ёмкостью 10000 мАч — хватит на 2-3 полные зарядки смартфона.",
+    "characteristics": [
+      { "label": "Ёмкость", "value": "10000 мАч" },
+      { "label": "Выход", "value": "USB-A, USB-C" },
+      { "label": "Вес", "value": "210 г" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Внешний аккумулятор 10000mAh, черный",
+    "type": "powerbanks",
+    "color": "black",
+    "price": 2490,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-02-10",
+    "image": "image_2.png",
+    "description": "Компактный power bank ёмкостью 10000 мАч — хватит на 2-3 полные зарядки смартфона.",
+    "characteristics": [
+      { "label": "Ёмкость", "value": "10000 мАч" },
+      { "label": "Выход", "value": "USB-A, USB-C" },
+      { "label": "Вес", "value": "210 г" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bluetooth гарнитура, черный",
+    "type": "headsets",
+    "color": "black",
+    "price": 3290,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-01-20",
+    "image": "image_3.png",
+    "description": "Моногарнитура для звонков с шумоподавлением микрофона.",
+    "characteristics": [
+      { "label": "Тип", "value": "моногарнитура" },
+      { "label": "Автономность", "value": "до 8 часов разговора" },
+      { "label": "Bluetooth", "value": "5.2" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bluetooth гарнитура, серый",
+    "type": "headsets",
+    "color": "gray",
+    "price": 3290,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-01-20",
+    "image": "image_4.png",
+    "description": "Моногарнитура для звонков с шумоподавлением микрофона.",
+    "characteristics": [
+      { "label": "Тип", "value": "моногарнитура" },
+      { "label": "Автономность", "value": "до 8 часов разговора" },
+      { "label": "Bluetooth", "value": "5.2" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Беспроводная акустика",
+    "type": "speakers",
+    "color": "black",
+    "price": 6990,
+    "rating": 5,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2025-12-05",
+    "image": "image_5.png",
+    "description": "Портативная колонка с объёмным звуком и защитой от брызг.",
+    "characteristics": [
+      { "label": "Мощность", "value": "20 Вт" },
+      { "label": "Защита", "value": "IPX5" },
+      { "label": "Автономность", "value": "до 15 часов" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Смартфон 256 ГБ, фиолетовый",
+    "type": "smartphones",
+    "color": "purple",
+    "price": 68990,
+    "rating": 5,
+    "isNew": true,
+    "isHit": true,
+    "createdAt": "2026-09-02",
+    "image": "image_6.png",
+    "description": "Смартфон с большим объёмом памяти и ярким AMOLED-экраном.",
+    "characteristics": [
+      { "label": "Память", "value": "256 ГБ" },
+      { "label": "Экран", "value": "6.6\" AMOLED, 120 Гц" },
+      { "label": "Батарея", "value": "5000 мАч" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Смартфон 256 ГБ, черный",
+    "type": "smartphones",
+    "color": "black",
+    "price": 68990,
+    "rating": 5,
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-09-02",
+    "image": "image_7.png",
+    "description": "Смартфон с большим объёмом памяти и ярким AMOLED-экраном.",
+    "characteristics": [
+      { "label": "Память", "value": "256 ГБ" },
+      { "label": "Экран", "value": "6.6\" AMOLED, 120 Гц" },
+      { "label": "Батарея", "value": "5000 мАч" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Смартфон 256 ГБ, белый",
+    "type": "smartphones",
+    "color": "white",
+    "price": 68990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-07-11",
+    "image": "image_8.png",
+    "description": "Смартфон с большим объёмом памяти и ярким AMOLED-экраном.",
+    "characteristics": [
+      { "label": "Память", "value": "256 ГБ" },
+      { "label": "Экран", "value": "6.6\" AMOLED, 120 Гц" },
+      { "label": "Батарея", "value": "5000 мАч" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Часы с GPS трекером, черные",
+    "type": "watches",
+    "color": "black",
+    "price": 12990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-03-14",
+    "image": "image_9.png",
+    "description": "Умные часы со встроенным GPS-модулем — удобно отслеживать пробежки без телефона.",
+    "characteristics": [
+      { "label": "GPS", "value": "есть" },
+      { "label": "Экран", "value": "1.4\" AMOLED" },
+      { "label": "Защита", "value": "5 ATM" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Часы с GPS трекером, синие",
+    "type": "watches",
+    "color": "blue",
+    "price": 12990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-03-14",
+    "image": "image_10.png",
+    "description": "Умные часы со встроенным GPS-модулем — удобно отслеживать пробежки без телефона.",
+    "characteristics": [
+      { "label": "GPS", "value": "есть" },
+      { "label": "Экран", "value": "1.4\" AMOLED" },
+      { "label": "Защита", "value": "5 ATM" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Фитнес-браслет ASK-B19, зеленый",
+    "type": "fitness-bands",
+    "color": "green",
+    "price": 3990,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2025-11-01",
+    "image": "image_11.png",
+    "description": "Лёгкий фитнес-браслет с мониторингом сна и шагомером.",
+    "characteristics": [
+      { "label": "Экран", "value": "0.96\" TFT" },
+      { "label": "Автономность", "value": "до 14 дней" },
+      { "label": "Защита", "value": "IP68" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Фитнес-браслет ASK-B19, черный",
+    "type": "fitness-bands",
+    "color": "black",
+    "price": 3990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2025-11-01",
+    "image": "image_12.png",
+    "description": "Лёгкий фитнес-браслет с мониторингом сна и шагомером.",
+    "characteristics": [
+      { "label": "Экран", "value": "0.96\" TFT" },
+      { "label": "Автономность", "value": "до 14 дней" },
+      { "label": "Защита", "value": "IP68" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Наушники, белые",
+    "type": "headphones",
+    "color": "white",
+    "price": 8990,
+    "rating": 4,
+    "isNew": true,
+    "isHit": true,
+    "createdAt": "2026-08-25",
+    "image": "image_13.png",
+    "description": "Беспроводные наушники-вкладыши с компактным кейсом для зарядки.",
+    "characteristics": [
+      { "label": "Тип", "value": "TWS, вкладыши" },
+      { "label": "Автономность", "value": "до 24 часов с кейсом" },
+      { "label": "Bluetooth", "value": "5.3" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Наушники, синие",
+    "type": "headphones",
+    "color": "blue",
+    "price": 8990,
+    "rating": 4,
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-08-25",
+    "image": "image_14.png",
+    "description": "Беспроводные наушники-вкладыши с компактным кейсом для зарядки.",
+    "characteristics": [
+      { "label": "Тип", "value": "TWS, вкладыши" },
+      { "label": "Автономность", "value": "до 24 часов с кейсом" },
+      { "label": "Bluetooth", "value": "5.3" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Наушники, черные",
+    "type": "headphones",
+    "color": "black",
+    "price": 8990,
+    "rating": 5,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-05-30",
+    "image": "image_15.png",
+    "description": "Беспроводные наушники-вкладыши с компактным кейсом для зарядки.",
+    "characteristics": [
+      { "label": "Тип", "value": "TWS, вкладыши" },
+      { "label": "Автономность", "value": "до 24 часов с кейсом" },
+      { "label": "Bluetooth", "value": "5.3" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Видеокамера для блогера",
+    "type": "cameras",
+    "color": "black",
+    "price": 24990,
+    "rating": 5,
+    "isNew": true,
+    "isHit": true,
+    "createdAt": "2026-09-08",
+    "image": "image_16.png",
+    "description": "Компактная камера для съёмки видео с электронной стабилизацией.",
+    "characteristics": [
+      { "label": "Видео", "value": "4K 60fps" },
+      { "label": "Стабилизация", "value": "электронная" },
+      { "label": "Крепление", "value": "стандартное штативное" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Микрофон с разъемом Type-C",
+    "type": "microphones",
+    "color": "black",
+    "price": 4490,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-04-02",
+    "image": "image_17.png",
+    "description": "Петличный микрофон для смартфона — удобно для записи видео и подкастов.",
+    "characteristics": [
+      { "label": "Подключение", "value": "USB-C" },
+      { "label": "Тип", "value": "петличный конденсаторный" },
+      { "label": "Длина кабеля", "value": "1.5 м" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Чехол-подвеска силиконовый с карабином, красный",
+    "type": "accessories",
+    "color": "red",
+    "price": 990,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-01-05",
+    "image": "image_18.png",
+    "description": "Силиконовый чехол-подвеска с карабином — удобно носить телефон на сумке.",
+    "characteristics": [
+      { "label": "Материал", "value": "силикон" },
+      { "label": "Карабин", "value": "металлический" }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Чехол-подвеска силиконовый с карабином, белый",
+    "type": "accessories",
+    "color": "white",
+    "price": 990,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-01-05",
+    "image": "image_19.png",
+    "description": "Силиконовый чехол-подвеска с карабином — удобно носить телефон на сумке.",
+    "characteristics": [
+      { "label": "Материал", "value": "силикон" },
+      { "label": "Карабин", "value": "металлический" }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Чехол-подвеска силиконовый с карабином, серый",
+    "type": "accessories",
+    "color": "gray",
+    "price": 990,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-01-05",
+    "image": "image_20.png",
+    "description": "Силиконовый чехол-подвеска с карабином — удобно носить телефон на сумке.",
+    "characteristics": [
+      { "label": "Материал", "value": "силикон" },
+      { "label": "Карабин", "value": "металлический" }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Чехол-подвеска силиконовый с карабином, желтый",
+    "type": "accessories",
+    "color": "yellow",
+    "price": 990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-01-05",
+    "image": "image_21.png",
+    "description": "Силиконовый чехол-подвеска с карабином — удобно носить телефон на сумке.",
+    "characteristics": [
+      { "label": "Материал", "value": "силикон" },
+      { "label": "Карабин", "value": "металлический" }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Беспроводная акустика, серый",
+    "type": "speakers",
+    "color": "gray",
+    "price": 6990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2025-12-05",
+    "image": "image_22.png",
+    "description": "Портативная колонка с объёмным звуком и защитой от брызг.",
+    "characteristics": [
+      { "label": "Мощность", "value": "20 Вт" },
+      { "label": "Защита", "value": "IPX5" },
+      { "label": "Автономность", "value": "до 15 часов" }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Беспроводная акустика, голубой",
+    "type": "speakers",
+    "color": "lightblue",
+    "price": 6990,
+    "rating": 4,
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-08-14",
+    "image": "image_23.png",
+    "description": "Портативная колонка с объёмным звуком и защитой от брызг.",
+    "characteristics": [
+      { "label": "Мощность", "value": "20 Вт" },
+      { "label": "Защита", "value": "IPX5" },
+      { "label": "Автономность", "value": "до 15 часов" }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Беспроводная акустика, бежевый",
+    "type": "speakers",
+    "color": "beige",
+    "price": 6990,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2025-12-05",
+    "image": "image_24.png",
+    "description": "Портативная колонка с объёмным звуком и защитой от брызг.",
+    "characteristics": [
+      { "label": "Мощность", "value": "20 Вт" },
+      { "label": "Защита", "value": "IPX5" },
+      { "label": "Автономность", "value": "до 15 часов" }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Умная лампа",
+    "type": "smart-home",
+    "color": "white",
+    "price": 2990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2026-02-28",
+    "image": "image_25.png",
+    "description": "Лампа с управлением через приложение — миллионы оттенков и таймер.",
+    "characteristics": [
+      { "label": "Управление", "value": "приложение, Wi-Fi" },
+      { "label": "Цветовая температура", "value": "2700-6500K" }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Аппаратный ключ аутентификации NFC",
+    "type": "security",
+    "color": "black",
+    "price": 3490,
+    "rating": 5,
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-07-19",
+    "image": "image_26.png",
+    "description": "Физический ключ для двухфакторной аутентификации по NFC и USB-C.",
+    "characteristics": [
+      { "label": "Подключение", "value": "NFC, USB-C" },
+      { "label": "Протоколы", "value": "FIDO2, U2F" }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Аппаратный криптокошелек",
+    "type": "security",
+    "color": "black",
+    "price": 8990,
+    "rating": 5,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-03-30",
+    "image": "image_27.png",
+    "description": "Холодное хранилище для криптовалют с экраном для подтверждения операций.",
+    "characteristics": [
+      { "label": "Экран", "value": "есть" },
+      { "label": "Подключение", "value": "USB-C, Bluetooth" }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Очки виртуальной реальности, смартфоны до 6,5\"",
+    "type": "vr",
+    "color": "black",
+    "price": 3990,
+    "rating": 3,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2025-10-15",
+    "image": "image_28.png",
+    "description": "Простые VR-очки, в которые вставляется смартфон с диагональю до 6.5 дюйма.",
+    "characteristics": [
+      { "label": "Совместимость", "value": "смартфоны до 6.5\"" },
+      { "label": "Линзы", "value": "регулируемые" }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Шлем виртуальной реальности 128GB",
+    "type": "vr",
+    "color": "black",
+    "price": 54990,
+    "rating": 5,
+    "isNew": true,
+    "isHit": true,
+    "createdAt": "2026-09-15",
+    "image": "image_29.png",
+    "description": "Автономный VR-шлем со встроенной памятью — не требует подключения к ПК.",
+    "characteristics": [
+      { "label": "Память", "value": "128 ГБ" },
+      { "label": "Автономность", "value": "до 2 часов" },
+      { "label": "Разрешение", "value": "2K на глаз" }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Умный чемодан-скутер, серый",
+    "type": "smart-luggage",
+    "color": "gray",
+    "price": 39990,
+    "rating": 4,
+    "isNew": true,
+    "isHit": false,
+    "createdAt": "2026-06-01",
+    "image": "image_30.png",
+    "description": "Чемодан со встроенным электромотором — можно ехать на нём по аэропорту.",
+    "characteristics": [
+      { "label": "Электропривод", "value": "есть" },
+      { "label": "Зарядка гаджетов", "value": "USB-порт" },
+      { "label": "Объём", "value": "35 л" }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Умный чемодан-скутер, черный",
+    "type": "smart-luggage",
+    "color": "black",
+    "price": 39990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": true,
+    "createdAt": "2026-04-25",
+    "image": "image_31.png",
+    "description": "Чемодан со встроенным электромотором — можно ехать на нём по аэропорту.",
+    "characteristics": [
+      { "label": "Электропривод", "value": "есть" },
+      { "label": "Зарядка гаджетов", "value": "USB-порт" },
+      { "label": "Объём", "value": "35 л" }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Дыхательный тренажер",
+    "type": "wellness",
+    "color": "white",
+    "price": 4990,
+    "rating": 4,
+    "isNew": false,
+    "isHit": false,
+    "createdAt": "2025-11-20",
+    "image": "image_32.png",
+    "description": "Устройство для дыхательных практик с приложением-компаньоном.",
+    "characteristics": [
+      { "label": "Управление", "value": "приложение, Bluetooth" },
+      { "label": "Автономность", "value": "до 5 часов" }
+    ]
+  }
+]

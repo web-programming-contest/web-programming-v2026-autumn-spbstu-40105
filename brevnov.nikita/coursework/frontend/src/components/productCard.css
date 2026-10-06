@@ -1,0 +1,81 @@
+.product-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+}
+
+.product-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  z-index: 1;
+}
+
+.product-badge-hit {
+  background: var(--color-danger);
+}
+
+.product-badge-new {
+  background: var(--color-accent);
+}
+
+.product-card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+}
+
+.product-card-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  /* Ограничиваем заголовок двумя строками, чтобы карточки в одном ряду
+     не «прыгали» по высоте из-за разной длины названия товара. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;
+}
+
+.product-card-rating {
+  font-size: 13px;
+  color: var(--color-accent);
+}
+
+.product-card-rating-empty {
+  color: var(--color-border);
+}
+
+.product-card-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.product-card-price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product-card-clickable {
+  cursor: pointer;
+}
+
+.product-card-title.product-card-clickable:hover {
+  color: var(--color-accent);
+}
