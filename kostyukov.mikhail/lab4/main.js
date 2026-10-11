@@ -132,6 +132,11 @@ entityList.addEventListener('submit', async (e) => {
     return;
   }
 
+  if (teams[teamIndex].members.some((m) => m.name === memberName)) {
+    alert('Участник с таким именем уже есть в команде');
+    return;
+  }
+
   const submitBtn = form.querySelector('button[type="submit"]');
   if (submitBtn) {
     submitBtn.disabled = true;
