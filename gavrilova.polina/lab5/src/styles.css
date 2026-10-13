@@ -101,3 +101,66 @@ main {
   font-size: 14px;
   font-style: italic;
 }
+
+.note-form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.note-form-cancel {
+  background: #8b93b8;
+}
+
+.note-form-cancel:hover {
+  background: #6f7695;
+}
+
+.note-item-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.note-item-actions button {
+  flex: 1;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.note-item-edit {
+  background: #eef0f7;
+  color: #3f4ba3;
+}
+
+.note-item-edit:hover {
+  background: #d6dbea;
+}
+
+.note-item-delete {
+  background: #f44;
+  color: #fff;
+}
+
+.note-item-delete:hover {
+  background: #c00;
+}
+
+.note-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.note-tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #eef0f7;
+  color: #3f4ba3;
+}
