@@ -1,6 +1,6 @@
-import NoteItem from "./NoteItem.jsx";
+import NoteItem from './NoteItem.jsx';
 
-function NoteList({ notes, totalCount, activeId, onSelect, onDelete }) {
+function NoteList({notes, totalCount, activeId, onSelect, onDelete}) {
   const isEmpty = notes.length === 0;
   const isFiltered = totalCount > 0 && isEmpty;
 
@@ -8,7 +8,7 @@ function NoteList({ notes, totalCount, activeId, onSelect, onDelete }) {
     <div data-testid="note-list" className="note-list">
       {isEmpty ? (
         <p className="empty-hint">
-          {isFiltered ? "Ничего не найдено" : "Заметок пока нет"}
+          {isFiltered ? 'Ничего не найдено' : 'Заметок пока нет'}
         </p>
       ) : (
         notes.map((note) => (

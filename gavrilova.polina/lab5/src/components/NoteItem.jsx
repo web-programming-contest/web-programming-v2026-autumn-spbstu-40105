@@ -1,13 +1,10 @@
-function NoteItem({ note, isActive, onSelect, onDelete }) {
-  const preview =
-    note.content.length > 80
-      ? note.content.slice(0, 80) + "…"
-      : note.content;
+function NoteItem({note, isActive, onSelect, onDelete}) {
+  const preview = note.content.length > 80 ? `${note.content.slice(0, 80)  }…` : note.content;
 
-  const date = new Date(note.createdAt).toLocaleDateString("ru-RU", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
+  const date = new Date(note.createdAt).toLocaleDateString('ru-RU', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
   });
 
   function handleClick() {
@@ -15,7 +12,7 @@ function NoteItem({ note, isActive, onSelect, onDelete }) {
   }
 
   function handleKeyDown(e) {
-    if (e.key === "Enter" || e.key === " ") {
+    if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
       onSelect(note.id);
     }
@@ -29,7 +26,7 @@ function NoteItem({ note, isActive, onSelect, onDelete }) {
   return (
     <article
       data-testid="note-item"
-      className={`note-item${isActive ? " active" : ""}`}
+      className={`note-item${isActive ? ' active' : ''}`}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
       role="button"

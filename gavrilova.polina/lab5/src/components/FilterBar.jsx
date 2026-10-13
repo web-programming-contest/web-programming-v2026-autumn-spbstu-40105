@@ -1,15 +1,9 @@
-function FilterBar({
-  tags,
-  activeTag,
-  onTagChange,
-  dateFilter,
-  onDateChange,
-}) {
+function FilterBar({tags, activeTag, onTagChange, dateFilter, onDateChange}) {
   const dateOptions = [
-    { value: "all", label: "Все" },
-    { value: "today", label: "Сегодня" },
-    { value: "week", label: "Неделя" },
-    { value: "month", label: "Месяц" },
+    {value: 'all', label: 'Все'},
+    {value: 'today', label: 'Сегодня'},
+    {value: 'week', label: 'Неделя'},
+    {value: 'month', label: 'Месяц'},
   ];
 
   return (
@@ -18,8 +12,8 @@ function FilterBar({
         <span className="filter-label">Теги:</span>
         <button
           type="button"
-          className={`filter-chip${activeTag === "all" ? " active" : ""}`}
-          onClick={() => onTagChange("all")}
+          className={`filter-chip${activeTag === 'all' ? ' active' : ''}`}
+          onClick={() => onTagChange('all')}
         >
           Все
         </button>
@@ -27,7 +21,7 @@ function FilterBar({
           <button
             key={tag}
             type="button"
-            className={`filter-chip${activeTag === tag ? " active" : ""}`}
+            className={`filter-chip${activeTag === tag ? ' active' : ''}`}
             onClick={() => onTagChange(tag)}
           >
             #{tag}
@@ -44,7 +38,7 @@ function FilterBar({
           <button
             key={opt.value}
             type="button"
-            className={`filter-chip${dateFilter === opt.value ? " active" : ""}`}
+            className={`filter-chip${dateFilter === opt.value ? ' active' : ''}`}
             onClick={() => onDateChange(opt.value)}
           >
             {opt.label}

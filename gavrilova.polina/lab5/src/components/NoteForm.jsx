@@ -1,17 +1,17 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from 'react';
 
 function parseTags(input) {
   const tags = input
-    .split(",")
+    .split(',')
     .map((t) => t.trim().toLowerCase())
     .filter((t) => t.length > 0);
   return [...new Set(tags)];
 }
 
-function NoteForm({ editingNote, onSave, onCancel, onDelete }) {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  const [tagsInput, setTagsInput] = useState("");
+function NoteForm({editingNote, onSave, onCancel, onDelete}) {
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+  const [tagsInput, setTagsInput] = useState('');
 
   const isEditing = editingNote !== null;
 
@@ -19,11 +19,11 @@ function NoteForm({ editingNote, onSave, onCancel, onDelete }) {
     if (editingNote) {
       setTitle(editingNote.title);
       setContent(editingNote.content);
-      setTagsInput(editingNote.tags.join(", "));
+      setTagsInput(editingNote.tags.join(', '));
     } else {
-      setTitle("");
-      setContent("");
-      setTagsInput("");
+      setTitle('');
+      setContent('');
+      setTagsInput('');
     }
   }, [editingNote]);
 
@@ -41,9 +41,9 @@ function NoteForm({ editingNote, onSave, onCancel, onDelete }) {
     onSave(trimmedTitle, trimmedContent, tags);
 
     if (!isEditing) {
-      setTitle("");
-      setContent("");
-      setTagsInput("");
+      setTitle('');
+      setContent('');
+      setTagsInput('');
     }
   }
 
@@ -57,7 +57,7 @@ function NoteForm({ editingNote, onSave, onCancel, onDelete }) {
     <form onSubmit={handleSubmit} className="note-form">
       <header className="note-form-header">
         <h2 className="note-form-title">
-          {isEditing ? "Редактирование" : "Новая заметка"}
+          {isEditing ? 'Редактирование' : 'Новая заметка'}
         </h2>
       </header>
 
@@ -96,7 +96,7 @@ function NoteForm({ editingNote, onSave, onCancel, onDelete }) {
           data-testid="note-add"
           className="btn btn-primary"
         >
-          {isEditing ? "Сохранить" : "Добавить"}
+          {isEditing ? 'Сохранить' : 'Добавить'}
         </button>
 
         {isEditing && (
