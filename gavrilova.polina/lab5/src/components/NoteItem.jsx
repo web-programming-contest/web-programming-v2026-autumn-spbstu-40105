@@ -1,5 +1,6 @@
 function NoteItem({note, isActive, onSelect, onDelete}) {
-  const preview = note.content.length > 80 ? `${note.content.slice(0, 80)  }…` : note.content;
+  const preview =
+    note.content.length > 80 ? `${note.content.slice(0, 80)}…` : note.content;
 
   const date = new Date(note.createdAt).toLocaleDateString('ru-RU', {
     day: '2-digit',
