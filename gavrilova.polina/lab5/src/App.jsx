@@ -95,7 +95,7 @@ function App() {
     }
   }
 
-  function handleEditNote(id) {
+  function handleSelectNote(id) {
     setEditingId(id);
   }
 
@@ -104,41 +104,61 @@ function App() {
   }
 
   function handleDeleteNote(id) {
-  const updated = notes.filter((n) => n.id !== id);
-  setNotes(updated);
+    const updated = notes.filter((n) => n.id !== id);
+    setNotes(updated);
 
-  if (editingId === id) {
-    setEditingId(null);
-  }
+    if (editingId === id) {
+      setEditingId(null);
+    }
 
-  const remainingTags = getAllTags(updated);
-  if (activeTag !== "all" && !remainingTags.includes(activeTag)) {
-    setActiveTag("all");
+    const remainingTags = getAllTags(updated);
+    if (activeTag !== "all" && !remainingTags.includes(activeTag)) {
+      setActiveTag("all");
+    }
   }
-}
 
   return (
-    <main data-testid="app">
-      <h1>Заметки</h1>
-      <SearchBar value={searchQuery} onChange={setSearchQuery} />
-      <FilterBar
-        tags={allTags}
-        activeTag={activeTag}
-        onTagChange={setActiveTag}
-        dateFilter={dateFilter}
-        onDateChange={setDateFilter}
-      />
-      <NoteForm
-        editingNote={editingNote}
-        onSave={handleSaveNote}
-        onCancel={handleCancelEdit}
-      />
-      <NoteList
-        notes={visibleNotes}
-        totalCount={notes.length}
-        onEdit={handleEditNote}
-        onDelete={handleDeleteNote}
-      />
+    <main data-testid="app" className="app">
+      <header className="app-header">
+        <h1 className="app-title">Заметки</h1>
+      </header>
+
+      <div className="app-controls">
+        <SearchBar value={searchQuery} onChange={setSearchQuery} />
+        <FilterBar
+          tags={allTags}
+          activeTag={activeTag}
+          onTagChange={setActiveTag}
+          dateFilter={dateFilter}
+          onDateChange={setDateFilter}
+        />
+      </div>
+
+      <div className="app-body">
+        <aside className="app-sidebar">
+          <div className="app-sidebar-header">
+            <span className="app-sidebar-count">
+              {visibleNotes.length} из {notes.length}
+            </span>
+          </div>
+          <NoteList
+            notes={visibleNotes}
+            totalCount={notes.length}
+            activeId={editingId}
+            onSelect={handleSelectNote}
+            onDelete={handleDeleteNote}
+          />
+        </aside>
+
+        <section className="app-editor">
+          <NoteForm
+            editingNote={editingNote}
+            onSave={handleSaveNote}
+            onCancel={handleCancelEdit}
+            onDelete={handleDeleteNote}
+          />
+        </section>
+      </div>
     </main>
   );
 }

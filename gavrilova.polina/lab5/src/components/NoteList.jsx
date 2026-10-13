@@ -1,6 +1,6 @@
 import NoteItem from "./NoteItem.jsx";
 
-function NoteList({ notes, totalCount, onEdit, onDelete }) {
+function NoteList({ notes, totalCount, activeId, onSelect, onDelete }) {
   const isEmpty = notes.length === 0;
   const isFiltered = totalCount > 0 && isEmpty;
 
@@ -15,7 +15,8 @@ function NoteList({ notes, totalCount, onEdit, onDelete }) {
           <NoteItem
             key={note.id}
             note={note}
-            onEdit={onEdit}
+            isActive={note.id === activeId}
+            onSelect={onSelect}
             onDelete={onDelete}
           />
         ))
