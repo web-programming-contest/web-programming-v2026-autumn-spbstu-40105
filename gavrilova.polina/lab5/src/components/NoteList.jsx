@@ -1,10 +1,15 @@
 import NoteItem from "./NoteItem.jsx";
 
-function NoteList({ notes, onEdit, onDelete }) {
+function NoteList({ notes, totalCount, onEdit, onDelete }) {
+  const isEmpty = notes.length === 0;
+  const isFiltered = totalCount > 0 && isEmpty;
+
   return (
     <div data-testid="note-list" className="note-list">
-      {notes.length === 0 ? (
-        <p className="empty-hint">Заметок пока нет</p>
+      {isEmpty ? (
+        <p className="empty-hint">
+          {isFiltered ? "Ничего не найдено" : "Заметок пока нет"}
+        </p>
       ) : (
         notes.map((note) => (
           <NoteItem

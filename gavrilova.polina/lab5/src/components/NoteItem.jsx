@@ -1,47 +1,29 @@
-function NoteItem({ note, onEdit, onDelete }) {
-  const created = new Date(note.createdAt).toLocaleString("ru-RU", {
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+import NoteItem from "./NoteItem.jsx";
+
+function NoteList({ notes, totalCount, onEdit, onDelete }) {
+  const isEmpty = notes.length === 0;
+  const isFiltered = totalCount > 0 && isEmpty;
 
   return (
-    <article data-testid="note-item" className="note-item">
-      <h3 className="note-item-title">{note.title}</h3>
-      <p className="note-item-content">{note.content}</p>
-
-      {note.tags.length > 0 && (
-        <div className="note-tags">
-          {note.tags.map((tag) => (
-            <span key={tag} className="note-tag">
-              #{tag}
-            </span>
-          ))}
-        </div>
+    <div data-testid="note-list" className="note-list">
+      {isEmpty ? (
+        <p className="empty-hint">
+          {isFiltered
+            ? "Ничего не найдено по запросу"
+            : "Заметок пока нет"}
+        </p>
+      ) : (
+        notes.map((note) => (
+          <NoteItem
+            key={note.id}
+            note={note}
+            onEdit={onEdit}
+            onDelete={onDelete}
+          />
+        ))
       )}
-
-      <p className="note-item-date">{created}</p>
-
-      <div className="note-item-actions">
-        <button
-          type="button"
-          className="note-item-edit"
-          onClick={() => onEdit(note.id)}
-        >
-          Редактировать
-        </button>
-        <button
-          type="button"
-          className="note-item-delete"
-          onClick={() => onDelete(note.id)}
-        >
-          Удалить
-        </button>
-      </div>
-    </article>
+    </div>
   );
 }
 
-export default NoteItem;
+export default NoteList;
