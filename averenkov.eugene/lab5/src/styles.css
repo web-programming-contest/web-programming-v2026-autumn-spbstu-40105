@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.slider {
+  width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.card {
+  display: flex;
+  text-align: left;
+}
+
+.card img {
+  width: 200px;
+  height: 300px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.rating {
+  color: orange;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caption {
+  font-style: italic;
+  color: gray;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.controls button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.counter {
+  margin: 0 15px;
+}
+
+.dots {
+  margin-top: 15px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 4px;
+  background: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #333;
+}
