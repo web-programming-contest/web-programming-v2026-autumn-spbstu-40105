@@ -70,7 +70,7 @@ export function groupTeamsByMemberCount(teams) {
 }
 
 // Команды, в которых есть участник с заданным именем.
-export function findTeamsByMemberName(teams, name) {
+export function findTeamsByMember(teams, name) {
   return teams.filter((team) =>
     team.members.some((member) => member.name === name),
   );
