@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "name": "Внешний аккумулятор 10000mAh, белый",
+    "price": 1990,
+    "rating": 4.5,
+    "category": "Аксессуары",
+    "color": "белый",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_1.png"
+  },
+  {
+    "id": 2,
+    "name": "Внешний аккумулятор 10000mAh, черный",
+    "price": 1990,
+    "rating": 4.5,
+    "category": "Аксессуары",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_2.png"
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth гарнитура, черный",
+    "price": 3490,
+    "rating": 4.2,
+    "category": "Наушники",
+    "color": "черный",
+    "labels": ["Новинка"],
+    "image": "/images/goods/image_3.png"
+  },
+  {
+    "id": 4,
+    "name": "Bluetooth гарнитура, серый",
+    "price": 3490,
+    "rating": 4.2,
+    "category": "Наушники",
+    "color": "серый",
+    "labels": [],
+    "image": "/images/goods/image_4.png"
+  },
+  {
+    "id": 5,
+    "name": "Беспроводная акустика",
+    "price": 4990,
+    "rating": 4.8,
+    "category": "Аудио",
+    "color": "черный",
+    "labels": ["Хит", "Новинка"],
+    "image": "/images/goods/image_5.png"
+  },
+  {
+    "id": 6,
+    "name": "Смартфон 256 ГБ фиолетовый",
+    "price": 34990,
+    "rating": 4.7,
+    "category": "Смартфоны",
+    "color": "фиолетовый",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_6.png"
+  },
+  {
+    "id": 7,
+    "name": "Смартфон 256 ГБ черный",
+    "price": 34990,
+    "rating": 4.7,
+    "category": "Смартфоны",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_7.png"
+  },
+  {
+    "id": 8,
+    "name": "Смартфон 256 ГБ белый",
+    "price": 34990,
+    "rating": 4.7,
+    "category": "Смартфоны",
+    "color": "белый",
+    "labels": ["Новинка"],
+    "image": "/images/goods/image_8.png"
+  },
+  {
+    "id": 9,
+    "name": "Часы с GPS трекером черные",
+    "price": 8990,
+    "rating": 4.3,
+    "category": "Часы",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_9.png"
+  },
+  {
+    "id": 10,
+    "name": "Часы с GPS трекером синие",
+    "price": 8990,
+    "rating": 4.3,
+    "category": "Часы",
+    "color": "синий",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_10.png"
+  },
+  {
+    "id": 11,
+    "name": "Фитнес-браслет ASK-B19 зеленый",
+    "price": 2990,
+    "rating": 4.1,
+    "category": "Часы",
+    "color": "зеленый",
+    "labels": [],
+    "image": "/images/goods/image_11.png"
+  },
+  {
+    "id": 12,
+    "name": "Фитнес-браслет ASK-B19 черный",
+    "price": 2990,
+    "rating": 4.1,
+    "category": "Часы",
+    "color": "черный",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_12.png"
+  },
+  {
+    "id": 13,
+    "name": "Наушники белые",
+    "price": 5990,
+    "rating": 4.6,
+    "category": "Наушники",
+    "color": "белый",
+    "labels": ["Новинка"],
+    "image": "/images/goods/image_13.png"
+  },
+  {
+    "id": 14,
+    "name": "Наушники синие",
+    "price": 5990,
+    "rating": 4.6,
+    "category": "Наушники",
+    "color": "синий",
+    "labels": [],
+    "image": "/images/goods/image_14.png"
+  },
+  {
+    "id": 15,
+    "name": "Наушники черные",
+    "price": 5990,
+    "rating": 4.6,
+    "category": "Наушники",
+    "color": "черный",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_15.png"
+  },
+  {
+    "id": 16,
+    "name": "Видеокамера для блогера",
+    "price": 24990,
+    "rating": 4.9,
+    "category": "Камеры",
+    "color": "черный",
+    "labels": ["Новинка"],
+    "image": "/images/goods/image_16.png"
+  },
+  {
+    "id": 17,
+    "name": "Микрофон с разъемом Type-C",
+    "price": 3990,
+    "rating": 4.4,
+    "category": "Аксессуары",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_17.png"
+  },
+  {
+    "id": 18,
+    "name": "Чехол-подвеска силиконовый с карабином, красный",
+    "price": 990,
+    "rating": 4.0,
+    "category": "Аксессуары",
+    "color": "красный",
+    "labels": [],
+    "image": "/images/goods/image_18.png"
+  },
+  {
+    "id": 19,
+    "name": "Чехол-подвеска силиконовый с карабином, белый",
+    "price": 990,
+    "rating": 4.0,
+    "category": "Аксессуары",
+    "color": "белый",
+    "labels": [],
+    "image": "/images/goods/image_19.png"
+  },
+  {
+    "id": 20,
+    "name": "Чехол-подвеска силиконовый с карабином, серый",
+    "price": 990,
+    "rating": 4.0,
+    "category": "Аксессуары",
+    "color": "серый",
+    "labels": [],
+    "image": "/images/goods/image_20.png"
+  },
+  {
+    "id": 21,
+    "name": "Чехол-подвеска силиконовый с карабином, желтый",
+    "price": 990,
+    "rating": 4.0,
+    "category": "Аксессуары",
+    "color": "желтый",
+    "labels": ["Новинка"],
+    "image": "/images/goods/image_21.png"
+  },
+  {
+    "id": 22,
+    "name": "Беспроводная акустика, серый",
+    "price": 4990,
+    "rating": 4.8,
+    "category": "Аудио",
+    "color": "серый",
+    "labels": [],
+    "image": "/images/goods/image_22.png"
+  },
+  {
+    "id": 23,
+    "name": "Беспроводная акустика, голубой",
+    "price": 4990,
+    "rating": 4.8,
+    "category": "Аудио",
+    "color": "голубой",
+    "labels": [],
+    "image": "/images/goods/image_23.png"
+  },
+  {
+    "id": 24,
+    "name": "Беспроводная акустика, бежевый",
+    "price": 4990,
+    "rating": 4.8,
+    "category": "Аудио",
+    "color": "бежевый",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_24.png"
+  },
+  {
+    "id": 25,
+    "name": "Умная лампа",
+    "price": 1490,
+    "rating": 4.3,
+    "category": "Умный дом",
+    "color": "белый",
+    "labels": [],
+    "image": "/images/goods/image_25.png"
+  },
+  {
+    "id": 26,
+    "name": "Аппаратный ключ аутентификации NFC",
+    "price": 10590,
+    "rating": 5.0,
+    "category": "Безопасность",
+    "color": "черный",
+    "labels": ["Хит"],
+    "image": "/images/goods/image_26.png"
+  },
+  {
+    "id": 27,
+    "name": "Аппаратный криптокошелек",
+    "price": 15990,
+    "rating": 4.9,
+    "category": "Безопасность",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_27.png"
+  },
+  {
+    "id": 28,
+    "name": "Очки виртуальной реальности, смартфоны до 6.5",
+    "price": 2990,
+    "rating": 3.8,
+    "category": "VR",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_28.png"
+  },
+  {
+    "id": 29,
+    "name": "Шлем виртуальной реальности 128GB",
+    "price": 49990,
+    "rating": 4.8,
+    "category": "VR",
+    "color": "белый",
+    "labels": ["Хит", "Новинка"],
+    "image": "/images/goods/image_29.png"
+  },
+  {
+    "id": 30,
+    "name": "Умный чемодан-скутер серый",
+    "price": 89990,
+    "rating": 4.5,
+    "category": "Транспорт",
+    "color": "серый",
+    "labels": ["Новинка"],
+    "image": "/images/goods/image_30.png"
+  },
+  {
+    "id": 31,
+    "name": "Умный чемодан-скутер черный",
+    "price": 89990,
+    "rating": 4.5,
+    "category": "Транспорт",
+    "color": "черный",
+    "labels": [],
+    "image": "/images/goods/image_31.png"
+  },
+  {
+    "id": 32,
+    "name": "Дыхательный тренажер",
+    "price": 6990,
+    "rating": 4.2,
+    "category": "Здоровье",
+    "color": "фиолетовый",
+    "labels": [],
+    "image": "/images/goods/image_32.png"
+  }
+]
