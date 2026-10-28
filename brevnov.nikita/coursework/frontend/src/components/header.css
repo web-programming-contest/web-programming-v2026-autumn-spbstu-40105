@@ -1,0 +1,101 @@
+.header {
+  height: var(--header-height);
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
+}
+
+.header-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 20px;
+  flex: none;
+}
+
+.header-logo img {
+  width: 24px;
+  height: 24px;
+}
+
+.header-nav {
+  flex: 1;
+}
+
+.header-nav-link {
+  color: var(--color-text-dim);
+  font-weight: 500;
+  padding: 8px 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.header-nav-link-active {
+  color: var(--color-text);
+  border-bottom-color: var(--color-accent);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: none;
+}
+
+.header-text-button {
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.header-text-button:hover {
+  color: var(--color-accent);
+}
+
+.header-icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
+.header-icon-button:hover {
+  background: var(--color-surface);
+}
+
+.header-icon-button-active {
+  background: var(--color-surface);
+}
+
+.header-icon-button img {
+  width: 18px;
+  height: 18px;
+}
+
+.header-cart-badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
