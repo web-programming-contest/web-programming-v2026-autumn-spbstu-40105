@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.rect {
+  width: 100px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.rect-blue {
+  position: absolute;
+  background-color: blue;
+  top: 220px;
+  z-index: 3;
+  left: 60px;
+}
+
+.rect-green {
+  position: relative;
+  background-color: green;
+  top: 100px;
+  z-index: 2;
+  left: 30px;
+}
+
+.rect-red {
+  position: absolute;
+  background-color: red;
+  top: 150px;
+  z-index: 1;
+}
