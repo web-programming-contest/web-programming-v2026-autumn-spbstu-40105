@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Лабораторная работа 4</h1>
+      <p class="message" id="msg" role="status" aria-live="polite"></p>
+
+      <form class="panel" data-testid="entity-form">
+        <label
+          >ID<input name="id" type="number" min="1" step="1" required
+        /></label>
+        <label class="field-wide"
+          >Название<input name="name" type="text" required
+        /></label>
+        <label
+          >Размер
+          <select name="size">
+            <option>S</option>
+            <option selected>M</option>
+            <option>L</option>
+            <option>XL</option>
+          </select>
+        </label>
+        <button type="submit">Добавить товар</button>
+      </form>
+
+      <form class="panel" id="colorForm">
+        <label class="field-wide"
+          >Товар<select name="id" id="colorItem" required></select
+        ></label>
+        <label
+          >Цвет<input
+            name="color"
+            id="colorInput"
+            type="text"
+            placeholder="красный"
+            required
+        /></label>
+        <button type="submit">Добавить цвет</button>
+      </form>
+
+      <section class="panel">
+        <h2>Анализ каталога</h2>
+        <div class="row" id="reportRow">
+          <button type="button" data-report="size">
+            Группировка по размеру
+          </button>
+          <button type="button" data-report="unique">Все цвета</button>
+          <button type="button" data-report="count">
+            Группировка по числу цветов
+          </button>
+          <label class="field-color"
+            >Цвет<input id="byColor" type="text" placeholder="синий"
+          /></label>
+          <button type="button" data-report="color">Товары в цвете</button>
+          <label class="field-count"
+            >N<input id="minN" type="number" min="0" value="2"
+          /></label>
+          <button type="button" data-report="more">Больше N цветов</button>
+        </div>
+        <div id="results" class="results"></div>
+      </section>
+
+      <section
+        data-testid="entity-list"
+        aria-label="Список элементов"
+      ></section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
