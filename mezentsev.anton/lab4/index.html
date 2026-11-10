@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Фильмотека — лабораторная 4</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <main class="app">
+      <header class="page-header">
+        <p class="eyebrow">Лабораторная 04 · Вариант 28</p>
+        <h1>Моя фильмотека</h1>
+        <p>Собирайте фильмы, режиссёров и любимых актёров в одном месте.</p>
+      </header>
+      <section class="panel" aria-label="Новый фильм">
+        <h2>Добавить фильм</h2>
+        <form class="movie-form" data-testid="entity-form">
+          <label
+            >Название<input
+              type="text"
+              name="title"
+              required
+              maxlength="200"
+              placeholder="Например, Прибытие"
+          /></label>
+          <label
+            >Режиссёр<input
+              type="text"
+              name="director"
+              required
+              maxlength="200"
+              placeholder="Например, Дени Вильнёв"
+          /></label>
+          <button type="submit">Добавить фильм</button>
+        </form>
+      </section>
+      <p class="status" role="status" aria-live="polite"></p>
+      <section aria-label="Коллекция фильмов">
+        <div class="section-heading">
+          <h2>Коллекция</h2>
+          <span class="movie-count"></span>
+        </div>
+        <div class="movie-grid" data-testid="entity-list"></div>
+      </section>
+      <section class="panel analysis" aria-label="Работа с коллекцией">
+        <h2>Обзор коллекции</h2>
+        <div class="analysis-controls">
+          <label
+            >Показать<select name="query">
+              <option value="titles">Названия всех фильмов</option>
+              <option value="directors">Фильмы по режиссёрам</option>
+              <option value="actors">Уникальные актёры</option>
+              <option value="sizes">Фильмы по количеству актёров</option>
+              <option value="search">Фильмы с актёром</option>
+            </select></label
+          >
+          <label
+            >Имя актёра<input
+              type="text"
+              name="actor-search"
+              placeholder="Точное имя актёра"
+          /></label>
+        </div>
+        <div class="query-result" aria-live="polite"></div>
+      </section>
+      <footer>Данные сохраняются в этом браузере.</footer>
+    </main>
+  </body>
+</html>
