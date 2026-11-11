@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Библиотеки</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <main class="page">
+      <h1 class="page-title">Библиотеки</h1>
+      <p class="page-note">
+        Книги, жанры и авторы в одном месте. Данные сохраняются в браузере.
+      </p>
+      <p class="status" role="status" aria-live="polite" id="status"></p>
+
+      <section class="panel">
+        <h2 class="panel-title">Библиотеки</h2>
+        <div class="row">
+          <label class="field">
+            <span class="field-label">Текущая библиотека</span>
+            <select id="library-select" name="library"></select>
+          </label>
+          <button
+            class="button button-danger"
+            type="button"
+            id="delete-library"
+          >
+            Удалить библиотеку
+          </button>
+        </div>
+        <form class="row" id="library-form">
+          <label class="field">
+            <span class="field-label">Название библиотеки</span>
+            <input type="text" name="libraryName" required />
+          </label>
+          <button class="button" type="submit">Добавить библиотеку</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel-title">Новая книга</h2>
+        <form class="row" data-testid="entity-form" novalidate>
+          <label class="field">
+            <span class="field-label">Название</span>
+            <input type="text" name="name" required />
+          </label>
+          <label class="field">
+            <span class="field-label">Автор</span>
+            <input type="text" name="author" />
+          </label>
+          <label class="field">
+            <span class="field-label">Год</span>
+            <input type="number" name="year" />
+          </label>
+          <label class="field">
+            <span class="field-label">Жанр</span>
+            <input type="text" name="genre" />
+          </label>
+          <button class="button" type="submit">Добавить книгу</button>
+        </form>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel-title" id="books-title">Книги</h2>
+        <p class="empty" id="empty-note" hidden>
+          В этой библиотеке пока нет книг.
+        </p>
+        <div class="cards" data-testid="entity-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel-title">Сводка по всем библиотекам</h2>
+        <p class="stat">
+          <strong>Жанры:</strong> <span id="stat-genres"></span>
+        </p>
+        <p class="stat"><strong>Годы:</strong> <span id="stat-years"></span></p>
+        <p class="stat">
+          <strong>Авторы:</strong> <span id="stat-authors"></span>
+        </p>
+        <form class="row" id="author-form">
+          <label class="field">
+            <span class="field-label">Автор для поиска</span>
+            <input type="text" name="authorQuery" required />
+          </label>
+          <button class="button" type="submit">Найти книги автора</button>
+        </form>
+        <p class="stat" id="author-result"></p>
+      </section>
+    </main>
+  </body>
+</html>
