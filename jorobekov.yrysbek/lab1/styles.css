@@ -1,0 +1,116 @@
+:root {
+  --color-bg: #f5f6fa;
+  --color-surface: #fff;
+  --color-text: #1f2430;
+  --color-muted: #5a6270;
+  --color-accent: #3a6df0;
+  --color-accent-hover: #2a56cf;
+  --color-border: #e1e4ea;
+  --gap: 1.5rem;
+  --radius: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  line-height: 1.5;
+}
+
+.site-header {
+  padding: 2rem 1.5rem 1rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.subtitle {
+  margin: 0 auto;
+  max-width: 40rem;
+  color: var(--color-muted);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+  padding: 1.5rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.column {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.column:hover,
+.column:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1.5rem rgb(0 0 0 / 0.08);
+  outline: none;
+}
+
+.column h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.column-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.column-link:hover,
+.column-link:focus-visible {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+.site-footer {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.875rem;
+}
+
+/* ╨б╤А╨╡╨┤╨╜╨╕╨╡ ╤Н╨║╤А╨░╨╜╤Л: ╨┤╨▓╨░ ╤Б╤В╨╛╨╗╨▒╤Ж╨░ */
+@media (width <= 960px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ╨Ь╨░╨╗╨╡╨╜╤М╨║╨╕╨╡ ╤Н╨║╤А╨░╨╜╤Л: ╨╛╨┤╨╕╨╜ ╤Б╤В╨╛╨╗╨▒╨╡╤Ж */
+@media (width <= 600px) {
+  .columns {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+
+  .site-header {
+    padding: 1.5rem 1rem 0.75rem;
+  }
+}
