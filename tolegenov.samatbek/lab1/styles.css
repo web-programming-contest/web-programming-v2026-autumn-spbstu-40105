@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.stage {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  margin: 40px;
+}
+
+.rect-center {
+  position: relative;
+  top: 60px;
+  left: 110px;
+  z-index: 2;
+  width: 200px;
+  height: 150px;
+  background-color: green;
+}
+
+.rect-left {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  z-index: 1;
+  width: 160px;
+  height: 120px;
+  background-color: red;
+}
+
+.rect-right {
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  z-index: 3;
+  width: 160px;
+  height: 120px;
+  background-color: blue;
+}
