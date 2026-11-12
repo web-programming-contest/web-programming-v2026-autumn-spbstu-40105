@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "login": "user",
+    "name": "Покупатель",
+    "salt": "5061572d3bdf7380d4c9b7dd0853532c",
+    "passwordHash": "7b3dd9036b329b6a0a3fbf3b1ec0e21f13f04827487cef97e49cafbff308a14cab32483d2e84873d3d12683771a706b4676a0ec7dba4eb15f32d428f426bb100"
+  }
+]
