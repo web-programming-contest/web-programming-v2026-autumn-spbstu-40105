@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="page-title">Управление командами</h1>
+
+      <section class="section-card" aria-labelledby="form-heading">
+        <h2 id="form-heading" class="section-title">Создать новую команду</h2>
+        <form class="team-form" data-testid="entity-form">
+          <div class="form-group">
+            <label for="team-name" class="form-label">Название команды</label>
+            <input
+              id="team-name"
+              class="form-input"
+              name="name"
+              type="text"
+              placeholder="Например, Dream Team"
+              required
+            />
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Добавить команду
+          </button>
+        </form>
+      </section>
+
+      <section
+        class="team-list"
+        data-testid="entity-list"
+        aria-label="Список элементов"
+      ></section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
