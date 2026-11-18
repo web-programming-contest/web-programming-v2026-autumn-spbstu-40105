@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог одежды — вариант 12</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="subtitle">Лабораторная работа 4 · Вариант 12</p>
+        <h1>Каталог одежды</h1>
+        <p>
+          Добавляйте товары и доступные цвета. Список сохраняется в браузере.
+        </p>
+      </header>
+      <section class="panel" aria-labelledby="add-heading">
+        <h2 id="add-heading">Новый товар</h2>
+        <form data-testid="entity-form">
+          <label>ID <input name="id" type="number" step="1" required /></label>
+          <label
+            >Название <input name="name" type="text" maxlength="100" required
+          /></label>
+          <label
+            >Размер
+            <select name="size">
+              <option>S</option>
+              <option selected>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+          </label>
+          <button type="submit">Добавить товар</button>
+        </form>
+      </section>
+      <p class="status" role="status" aria-live="polite"></p>
+      <section aria-labelledby="list-heading">
+        <h2 id="list-heading">Товары</h2>
+        <div class="cards" data-testid="entity-list"></div>
+      </section>
+      <section class="panel" aria-labelledby="query-heading">
+        <h2 id="query-heading">Работа с коллекцией</h2>
+        <form class="query-form">
+          <label
+            >Запрос
+            <select name="query">
+              <option value="size">Группировка по размеру</option>
+              <option value="colors">Все уникальные цвета</option>
+              <option value="color">Товары выбранного цвета</option>
+              <option value="count">Группировка по количеству цветов</option>
+              <option value="above">
+                Товары с количеством цветов больше N
+              </option>
+            </select>
+          </label>
+          <label
+            >Цвет <input name="color" type="text" placeholder="синий"
+          /></label>
+          <label
+            >N <input name="count" type="number" min="0" step="1" value="0"
+          /></label>
+          <button type="submit">Показать результат</button>
+        </form>
+        <div class="query-result" aria-live="polite"></div>
+      </section>
+    </main>
+  </body>
+</html>
