@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <h1>Лабораторная работа 4. Рецепты</h1>
+
+      <form class="recipe-form" data-testid="entity-form">
+        <h2>Новый рецепт</h2>
+        <label class="field">
+          <span>Название</span>
+          <input type="text" name="title" required />
+        </label>
+        <label class="field">
+          <span>Ингредиенты (через запятую или с новой строки)</span>
+          <textarea name="ingredients" rows="3"></textarea>
+        </label>
+        <label class="field">
+          <span>Шаги (каждый с новой строки)</span>
+          <textarea name="steps" rows="3"></textarea>
+        </label>
+        <button type="submit">Добавить рецепт</button>
+      </form>
+
+      <p class="status" aria-live="polite" data-testid="status"></p>
+
+      <h2>Рецепты</h2>
+      <section
+        class="recipe-list"
+        data-testid="entity-list"
+        aria-label="Список элементов"
+      ></section>
+
+      <section class="overview">
+        <h2>Обзор коллекции</h2>
+        <label class="field">
+          <span>Показать</span>
+          <select class="overview-select">
+            <option value="titles">Названия всех рецептов</option>
+            <option value="unique">Уникальные ингредиенты</option>
+            <option value="ingredientCount">
+              Группировка по числу ингредиентов
+            </option>
+            <option value="stepCount">Группировка по числу шагов</option>
+            <option value="find">Рецепты с ингредиентом</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Ингредиент для поиска</span>
+          <input type="text" class="overview-search" />
+        </label>
+        <ul class="overview-result"></ul>
+      </section>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

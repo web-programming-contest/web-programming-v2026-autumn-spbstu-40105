@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #333;
+  background-color: #f5f7fb;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.recipe-form,
+.overview,
+.recipe-card {
+  padding: 16px;
+  border: 1px solid #d6dbe6;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.recipe-form,
+.overview {
+  margin-bottom: 24px;
+}
+
+.field {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.field span {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #b8c0d0;
+  border-radius: 4px;
+  font: inherit;
+}
+
+button {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 4px;
+  background-color: #0056ff;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+  background-color: #417ffb;
+}
+
+.danger {
+  background-color: #c62828;
+}
+
+.danger:hover,
+.danger:focus-visible {
+  background-color: #e53935;
+}
+
+.status {
+  min-height: 24px;
+  margin: 0 0 16px;
+  color: #444;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.recipe-list:empty::before {
+  content: 'Рецептов пока нет.';
+  color: #667085;
+}
+
+.recipe-title {
+  margin: 0 0 4px;
+}
+
+.recipe-meta {
+  margin: 0 0 12px;
+  color: #667085;
+  font-size: 14px;
+}
+
+.recipe-block h3 {
+  margin: 12px 0 4px;
+  font-size: 16px;
+}
+
+.recipe-block ul,
+.recipe-block ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.empty {
+  margin: 0;
+  color: #667085;
+}
+
+.editor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 12px;
+}
+
+.editor input {
+  flex: 1 1 100%;
+}
+
+.overview-result {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
