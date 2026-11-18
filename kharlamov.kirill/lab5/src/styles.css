@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #e7edf8;
+  background: #101828;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.game {
+  width: min(840px, 100%);
+  margin: auto;
+  padding: 24px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+h2 {
+  margin-block: 16px 8px;
+  font-size: 19px;
+}
+
+.subtitle,
+.hint {
+  color: #b4c1d8;
+  font-size: 14px;
+}
+
+.game-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 320px) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.board-panel {
+  position: relative;
+}
+
+.board {
+  width: 100%;
+  overflow: hidden;
+  border: 2px solid #6c7f9e;
+  background: #080f1b;
+}
+
+.board-row {
+  display: flex;
+}
+
+.cell {
+  display: block;
+  flex: 1 1 0;
+  min-width: 0;
+  aspect-ratio: 1;
+  border: 1px solid #24324b;
+}
+
+.cell-1 {
+  background: #22d3ee;
+}
+
+.cell-2 {
+  background: #facc15;
+}
+
+.cell-3 {
+  background: #c084fc;
+}
+
+.cell-4 {
+  background: #4ade80;
+}
+
+.cell-5 {
+  background: #fb7185;
+}
+
+.cell-6 {
+  background: #60a5fa;
+}
+
+.cell-7 {
+  background: #fb923c;
+}
+
+.sidebar {
+  padding: 4px 20px 20px;
+  border: 1px solid #3a4b68;
+  border-radius: 12px;
+  background: #1b2940;
+}
+
+.preview {
+  width: 120px;
+  min-height: 60px;
+}
+
+.preview-cell {
+  flex: 0 0 28px;
+}
+
+.actions,
+.touch-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 14px;
+  border: 1px solid #8babc9;
+  border-radius: 6px;
+  color: #fff;
+  background: #245a86;
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background: #306f9f;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+button:focus-visible {
+  outline: 3px solid #facc15;
+  outline-offset: 3px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: rgb(8 15 27 / 0.85);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (width <= 600px) {
+  .game {
+    padding: 16px;
+  }
+
+  .game-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .board-panel {
+    width: min(320px, 100%);
+    margin: auto;
+  }
+}
