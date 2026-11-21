@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 32px 16px;
+  font-family: Arial, sans-serif;
+  color: #111;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.car-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  padding: 16px;
+  margin-bottom: 24px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-field {
+  display: flex;
+  flex: 1 1 200px;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.form-field input,
+.owner-form input {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #2563eb;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc2626;
+}
+
+.btn-secondary {
+  color: #111;
+  background-color: #e5e7eb;
+}
+
+.car-list {
+  display: grid;
+  gap: 16px;
+}
+
+.car-card {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.car-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.car-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.car-meta {
+  font-size: 14px;
+  color: #555;
+}
+
+.owners-list {
+  padding: 0;
+  margin: 0 0 12px;
+  list-style: none;
+}
+
+.owner-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.owners-empty,
+.list-empty {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.owner-form {
+  display: flex;
+  gap: 8px;
+}
+
+.stats-panel {
+  padding: 16px;
+  margin-top: 24px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.stats-title {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.stats-line {
+  margin: 4px 0;
+}
