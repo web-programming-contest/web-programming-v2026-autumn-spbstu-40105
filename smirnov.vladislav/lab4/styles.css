@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+main {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2864dc;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1949a8;
+}
+
+[data-testid='entity-list'] {
+  margin-top: 20px;
+}
+
+[data-testid='entity-card'] {
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+[data-testid='entity-card'] button {
+  margin: 5px;
+}
